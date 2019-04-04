@@ -64,13 +64,7 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	@Override
 	public boolean areCoprime(int a, int b) {
 		// Calculate gcd
-		while (b != 0) {
-			if (a > b) {
-				a = a - b;
-			} else {
-				b = b - a;
-			}
-		}
+		a = extractedMethod(a, b);
 		// Check if coprime
 		if (a == 1) {
 			return true;
@@ -90,6 +84,17 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 			throw new ArithmeticException("Can't divide through zero!");
 		}
 		return a / b;
+	}
+	
+	private int extractedMethod(int a, int b) {
+	    while (b != 0) {
+			if (a > b) {
+				a = a - b;
+			} else {
+				b = b - a;
+			}
+		}
+		return a;
 	}
 
 }
