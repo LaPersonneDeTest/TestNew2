@@ -14,7 +14,7 @@ public interface Circle {
 	 * @param radius
 	 * @return perimeter
 	 */
-	public double getCirclePerimeter(double radius);
+	public double getGCE(double radius);
 
 	/**
 	 * This method returns the radius of a circle.
@@ -33,3 +33,4 @@ public interface Circle {
 	public double getCircleArea(double radius);
 
 }
+

@@ -20,7 +20,7 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	 */
 
 	@Override
-	public double getCirclePerimeter(double radius) {
+	public double getGCE(double radius) {
 		return 2 * PI * radius;
 	}
 
@@ -98,4 +98,5 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	}
 
 }
+
 

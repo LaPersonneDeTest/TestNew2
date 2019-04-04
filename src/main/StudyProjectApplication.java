@@ -26,7 +26,7 @@ public class StudyProjectApplication {
 		int divResult = calc.divide(4, 2);
 
 		// Perform circle functions
-		double cirPerimeter = calc.getCirclePerimeter(2.4);
+		double cirPerimeter = calc.getGCE(2.4);
 		double cirRadius = calc.getCircleRadius(8.8);
 		double cirArea = calc.getCircleArea(2.4);
 
@@ -49,3 +49,4 @@ public class StudyProjectApplication {
 
 	}
 }
+
