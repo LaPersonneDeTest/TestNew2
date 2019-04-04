@@ -86,7 +86,7 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 		return a / b;
 	}
 	
-	pivate int extractedMethod(int a, int b) {
+	private int extractedMethod(int a, int b) {
 	    while (b != 0) {
 			if (a > b) {
 				a = a - b;
