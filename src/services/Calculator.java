@@ -12,8 +12,8 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	 * This part of the code contains predefined constants.
 	 */
 
-	public final static double PI = 3.14159265359;
-	public final static double e = 2.718281828459045;
+	public static final double PI = 3.14159265359;
+	public static final double e = 2.718281828459045;
 
 	/*
 	 * This part of the code contains circle functions.
@@ -93,3 +93,4 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	}
 
 }
+
