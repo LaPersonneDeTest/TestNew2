@@ -12,7 +12,7 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	 * This part of the code contains predefined constants.
 	 */
 
-	public final static double PI = 3.14159265359;
+	public static final double PI = 3.14159265359;
 	public final static double e = 2.718281828459045;
 
 	/*
