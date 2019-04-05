@@ -43,7 +43,8 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 		return 4 * sideLenght;
 	}
 
-	public double getSquareArea(double sideLenght, double unusedParam) {
+	@Override
+	public double getSquareArea(double sideLenght) {
 		return Math.pow(sideLenght, 2);
 	}
 
@@ -93,3 +94,4 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	}
 
 }
+
