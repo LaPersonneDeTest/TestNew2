@@ -32,7 +32,7 @@ public class StudyProjectApplication {
 
 		// Perform square functions
 		double squPerimeter = calc.getSquarePerimeter(5.0);
-		double squArea = calc.getSquareArea(5.0, 5.0);
+		double squArea = calc.getSquareArea(5.0);
 
 		// Print all results
 		System.out.println("Addition result: " + addResult);
@@ -49,3 +49,4 @@ public class StudyProjectApplication {
 
 	}
 }
+

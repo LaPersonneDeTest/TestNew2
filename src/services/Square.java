@@ -17,10 +17,11 @@ public interface Square {
 	public double getSquarePerimeter(double sideLenght);
 
 	/**
-	 * This method returns the area of a square.
-	 * 
-	 * @param sideLenght
-	 * @return area
-	 */
-	public double getSquareArea(double sideLenght, double unusedParam);
+ * This method returns the area of a square.
+ * 
+ * @param sideLenght
+ * @return area
+ */
+	public double getSquareArea(double sideLenght);
 }
+
